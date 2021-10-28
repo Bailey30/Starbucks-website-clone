@@ -7,6 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Starbucks</title>
         <link rel="stylesheet" href="style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+            integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 
     <body>
@@ -14,20 +18,20 @@
             <nav class="flex">
                 <div class="logo"><img src="star.png" alt=""></div>
                 <div class="navflex">
-                    <ul class="flex">
-                        <li><button class="f1">MENU</button></li>
-                        <li><button class="f1">REWARDS</button></li>
-                        <li><button class="gift f1">GIFT CARDS</button></li>
+                    <ul class="firstlist">
+                        <li><button class="">MENU</button></li>
+                        <li><button class="rewards">REWARDS</button></li>
+                        <li><button class="gift ">GIFT CARDS</button></li>
                     </ul>
                     <ul class="flex rightbtns">
-                        <li><button class="fasbtn">Find a store</button></li>
+                        <li><button class="fasbtn"><i class="fas fa-map-marker-alt"></i>Find a store</button></li>
                         <li><button class="sibtn">Sign In</button></li>
                         <li><button class="njbtn">Join Now</button></li>
                     </ul>
                 </div>
             </nav>
             <div class="undernav">
-                <div>STARBUCKS REWARDS</div>
+                <div>STARBUCKS<sup>®</sup> REWARDS</div>
             </div>
         </section>
 
@@ -96,13 +100,15 @@
         <section class="endlessextras">
             <div class="ee">
                 <h1>Endless Extras</h1>
-                <p>Joining Starbucks® Rewards means unlocking access to exclusive benefits. Say hello to easy ordering, tasty Rewards and—yes, free coffee.</p>
+                <p>Joining Starbucks® Rewards means unlocking access to exclusive benefits. Say hello to easy ordering,
+                    tasty Rewards and—yes, free coffee.</p>
             </div>
             <div class="flex threerow">
                 <div class="row">
                     <div class="circle2"><img src="1-fun-freebies.jpg" alt=""></div>
                     <h2>Fun freebies</h2>
-                    <p>Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.</p>
+                    <p>Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.
+                    </p>
                     <p><a href="#">Learn more</a></p>
                 </div>
                 <div class="row">
@@ -124,7 +130,8 @@
         <section class="cashorcard">
             <div class="cc">
                 <h1>Cash or card, you earn Stars</h1>
-                <p>No matter how you pay, you can earn Stars with your morning coffee. Those Stars add up to (really delicious) Rewards.</p>
+                <p>No matter how you pay, you can earn Stars with your morning coffee. Those Stars add up to (really
+                    delicious) Rewards.</p>
             </div>
 
             <div class="grid">
@@ -143,11 +150,186 @@
                     <div class="gridimg"><img src="1B.png" alt="#"></div>
                     <div class="tb1">
                         <h2>Save payment in the app</h2>
-                        <p>Check-out faster by saving a credit/debit card or Paypal to your account. You'll be able to order ahead or scan and pay at the register in one step.</p>
+                        <p>Check-out faster by saving a credit/debit card or Paypal to your account. You'll be able to
+                            order ahead or scan and pay at the register in one step.</p>
                     </div>
                 </div>
             </div>
+            <hr>
+            <div class="grid">
+                <div class="grid1">
+                    <h1>2★ per dollar</h1>
+                    <p>Add funds in the app</p>
+                </div>
+                <div class="grid2">
+                    <div class="gridimg"><img src="2A.png" alt=""></div>
+                    <div class="tb1">
+                        <h2>Preload</h2>
+                        <p>To save time and earn Stars twice as fast, add money to your digital Starbucks Card using any
+                            payment option. Scan and pay in one step or order ahead in the app.</p>
+                    </div>
+                </div>
+                <div class="grid2">
+                    <div class="gridimg"><img src="2B.png" alt="#"></div>
+                    <div class="tb1">
+                        <h2>Register your gift card</h2>
+                        <p>Then use it to pay through the app. You can even consolidate balances from multiple cards in
+                            one place.</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="grid">
+                <div class="grid1">
+                    <h1>Up to 3★ per dollar</h1>
+                    <p>With Starbucks® Rewards Visa® Card</p>
+                </div>
+                <div class="grid2">
+                    <div class="gridimg"><img src="3A.png" alt=""></div>
+                    <div class="tb1">
+                        <h2>Earn Stars even faster</h2>
+                        <p>Earn Stars on all purchases you make with our
+                            credit card
+                            opens in new window in and outside of Starbucks. Earn 1 Star per $1 when you digitally
+                            preload your Starbucks Card with your Starbucks® Rewards Visa® Card, and earn 2 Stars per $1
+                            when you pay with that preloaded Starbucks Card.</p>
+                    </div>
+                </div>
         </section>
+
+        <section class="starcodecolumn">
+            <div class="starcode">
+                <h1>Star Codes</h1>
+                <p class="m0">Yessss. You've got stars in your hand. Enter your code here and we'll add Stars to your account.</p>
+                <form class="starcodesubmit">
+                    <input type="text" name="starCode" id="starCode" placeholder="Enter your Star Code">
+                    <div class="btntxt"><button>Submit</button></div>
+                    <p>Have a reciept but don't have a code?<br>Go to <a href="=">starbucks-stars.com</a> to upload your
+                        reciept and collect your stars</p>
+                </form>
+                <h1>Questions?</h1>
+                <p class="m0">We want to help in any way we can. You can ask your barista anytime or we’ve answered the
+                    most commonly asked questions
+                    <a href="#">right over here</a>
+                    opens in new window.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="conditions">
+            <p class="p1">At participating stores. Restricitions apply.</p>
+            <div class="conditionsgrid">
+                <div class="topleft">
+                    <h2>EARNING STARS</h2>
+                    <p>Stars cannot be earned on purchases of alcohol, Starbucks Cards or Starbucks Card reloads.</p>
+                    <p>Earn 1 Star per $1 spent when you scan your member barcode in the app, then pay with cash,
+                        credit/debit cards or mobile wallets at participating stores. You can also earn 1 Star per $1
+                        spent when you link a payment method and pay directly through the app.</p>
+                    <p>Earn 2 Stars per $1 spent when you load funds and pay with your digital Starbucks Card in the
+                        app. You can also earn 2 Stars per $1 spent when you pay in-person at a participating store with
+                        your registered physical Starbucks Card or scan your member barcode in the app, and then use any
+                        physical Starbucks Card (regardless of whether it is registered) to complete the purchase.</p>
+                </div>
+                <div class="topright">
+                    <h2>TERMS OF USE</h2>
+                    <p>For full program details visit
+                        starbucks.com/rewards/terms
+                        opens in new window.</p>
+                    <p>* Earn 1 Star per $1 when digitally loading your Starbucks Card with your Starbucks® Rewards
+                        Visa® Card: See your Card Rewards Program Agreement for more details.</p>
+                    <p>Starbucks® Rewards benefits are available at participating Starbucks stores. Not all stores have
+                        the ability to honor Rewards at this time. Visit the
+                        Starbucks Store Locator
+                        opens in new window and search for locations honoring “Redeem Rewards”.</p>
+                    <p>Deposit and credit card products provided by JPMorgan Chase Bank, N.A. Member FDIC</p>
+                </div>
+                <div class="bottomleft">
+                    <h2>BENEFITS</h2>
+                    <p>Free refills available during same in-store visit only. To qualify for the Birthday Reward,
+                        you
+                        must have made at least one Star-earning transaction.</p>
+                </div>
+
+
+                <div class="bottomright">
+                    <h2>REDEEMING REWARDS</h2>
+                    <p>Rewards cannot be redeemed for alcoholic beverages or multi-serve items. Not all stores honor
+                        tiered Rewards. Select stores redeem 150 Stars for free food or drink items only.</p>
+                </div>
+            </div>
+        </section>
+        <hr class="hr2">
+
+        <section class="btmlinks">
+            <div class="list">
+                <h2>About Us</h2>
+                <p>Our Company</p>
+                <p>Our Coffee</p>
+                <p>Stories and News</p>
+                <p>Starbucks Archive</p>
+                <p>Investor Relations</p>
+                <p>Customer Services</p>
+            </div>
+            <div class="list">
+                <h2>Careers</h2>
+                <p>Culture and Values</p>
+                <p>Inclusion, Diversity, and Equality</p>
+                <p>College Acheivement Plan</p>
+                <p>Alumni Community</p>
+                <p>U.S. Careers</p>
+                <p>International Careers</p>
+            </div>
+            <div class="list">
+                <h2>Social Impact</h2>
+                <p>People</p>
+                <p>Planet</p>
+                <p>Environmental and Social Impact Reporting</p>
+            </div>
+            <div class="list">
+                <h2>For Business Partners</h2>
+                <p>Landlord Support Center</p>
+                <p>Suppliers</p>
+                <p>Corporate Gift Card Sales</p>
+                <p>Office and Foodservice Coffee</p>
+            </div>
+            <div class="list">
+                <h2>Order and Pickup</h2>
+                <p>Order on the App</p>
+                <p>Order on the Web</p>
+                <p>Delivery</p>
+                <p>Order and Pickup Options</p>
+                <p>Explore and Find Coffee for Home</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <div class="iconcontainer">
+                <div class="iconbox"><i class="fab fa-spotify"></i></div>
+                <div class="iconbox"><i class="fab fa-facebook"></i></div>
+                <div class="iconbox"><i class="fab fa-pinterest"></i></div>
+                <div class="iconbox"><img src="images/1024px-CIS-A2K_Instagram_Icon_(Black).svg.png" alt=""></div>
+                <div class="iconbox you"><img class="you" src="images/youtube.png" alt=""></div>
+                <div class="iconbox"><img src="images/twitter-icon-circle-black-logo-35827D553B-seeklogo.com.png"
+                        alt=""></div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="policylinks">
+                <a href="#">Privacy Policy</a>
+                <p>|</p>
+                <a href="#">Terms of Use</a>
+                <p>|</p>
+                <a href="#">CA Supply Chain Act</a>
+                <p>|</p>
+                <a href="#">Cookie Preferences</a>
+            </div>
+            <p>© 2021 Starbucks Coffee Company. All rights reserved.</p>
+
+        </footer>
 
     </body>
 
