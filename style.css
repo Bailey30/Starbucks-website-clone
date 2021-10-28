@@ -367,6 +367,7 @@ nav {
     margin: 0;
     font-size: 28px;
     font-weight: 400;
+    position: relative;
 }
 
 section.container {
@@ -380,7 +381,9 @@ ul.flex {
     margin-bottom: 0;
     margin-top: 0;
 }
-
+.numlist {
+    position: relative
+}
 .num {
     width: 108px;
     height: 60px;
@@ -437,6 +440,17 @@ ul.flex {
     font-size: 17px;
     padding-top: 10px;
 
+}
+
+.movingbar{
+    height: 5px;
+    background-color: #00754a;
+    width: 108px;
+    z-index: 99;
+    position: absolute;
+    left: 450px;
+    top:60px;
+    transition: all .3s ease;
 }
 
 /* endless extras */

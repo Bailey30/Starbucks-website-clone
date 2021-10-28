@@ -80,13 +80,16 @@
 
         <section class="container">
             <h1>Get your favourites for free</h1>
-            <ul class="flex">
-                <li class="num">25<span class="color-gold text-xs">★</span></li>
-                <li class="num ">50<span class="color-gold text-xs">★</span></li>
-                <li class="num">150<span class="color-gold text-xs">★</span></li>
-                <li class="num">200<span class="color-gold text-xs">★</span></li>
-                <li class="num">400<span class="color-gold text-xs">★</span></li>
+
+            <ul class="flex numlist">
+                <div class="movingbar" id="bar"></div>
+                <li class="num" id="num1">25<span class="color-gold text-xs">★</span></li>
+                <li class="num " id="num2">50<span class="color-gold text-xs">★</span></li>
+                <li class="num" id="num3">150<span class="color-gold text-xs">★</span></li>
+                <li class="num" id="num4">200<span class="color-gold text-xs">★</span></li>
+                <li class="num" id="num5">400<span class="color-gold text-xs">★</span></li>
             </ul>
+
         </section>
         <div class="drinkcontainer">
             <div class="drink"><img class="coffee" src="025.png" alt="coffee"></div>
@@ -200,7 +203,8 @@
         <section class="starcodecolumn">
             <div class="starcode">
                 <h1>Star Codes</h1>
-                <p class="m0">Yessss. You've got stars in your hand. Enter your code here and we'll add Stars to your account.</p>
+                <p class="m0">Yessss. You've got stars in your hand. Enter your code here and we'll add Stars to your
+                    account.</p>
                 <form class="starcodesubmit">
                     <input type="text" name="starCode" id="starCode" placeholder="Enter your Star Code">
                     <div class="btntxt"><button>Submit</button></div>
@@ -330,7 +334,7 @@
             <p>© 2021 Starbucks Coffee Company. All rights reserved.</p>
 
         </footer>
-
+        <script src="script.js"></script>
     </body>
 
 </html>
