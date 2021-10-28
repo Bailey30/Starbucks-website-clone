@@ -15,6 +15,8 @@ body {
 
 }
 
+/* nav bar */
+
 .flex {
     display: flex;
     align-items: center;
@@ -46,6 +48,11 @@ li {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: normal;
+    transition: background-color .2s ease;
+}
+
+.njbtn:hover {
+    background-color: rgba(0, 0, 0, 0.707);
 }
 
 .navflex .sibtn {
@@ -58,7 +65,11 @@ li {
     width: 80px;
     border-radius: 50px;
     letter-spacing: normal;
-    
+    transition: background-color .2s ease
+
+}
+.sibtn:hover{
+    background-color: rgba(214, 214, 214, 0.496);
 }
 
 .navflex .fasbtn {
@@ -72,6 +83,11 @@ li {
     letter-spacing: normal;
     justify-content: center;
 }
+
+.navflex .fasbtn:hover {
+    color: #00754a
+}
+
 .fa-map-marker-alt {
     font-size: 20px;
     padding-right: 10px;
@@ -86,10 +102,12 @@ button {
     padding-right: 0;
 
 }
+
 .firstlist {
     display: flex;
     align-items: center;
 }
+
 .navflex button {
     display: flex;
     justify-content: space-evenly;
@@ -104,17 +122,25 @@ button {
     font-weight: bold;
     letter-spacing: 2px;
 }
+
 .rewards {
     box-shadow: inset 0 -6px #00754a;
 }
 
 button.gift {
-    
+
     width: 150px;
     padding-right: 10px;
     padding-left: 0px;
     margin-left: 0;
 
+}
+
+.menu:hover,
+.rewards:hover,
+.gift:hover,
+.fasbtn:hover {
+    color: #00754a
 }
 
 
@@ -170,6 +196,9 @@ nav {
 .undernav sup {
     font-size: 6px;
 }
+
+/* hero image and text */
+
 
 .logo {
     height: 50px;
@@ -237,8 +266,11 @@ nav {
     font-weight: 600;
     color: white;
     background-color: #158058;
+    transition: background-color .2s ease
 }
-
+.hero-text button:hover {
+    background-color: #1b9367;
+}
 .hero-text p:nth-child(4) {
     margin-top: 35px;
 }
@@ -247,6 +279,9 @@ nav {
     text-decoration: underline;
     color: black;
 }
+
+
+/* getting started is easy */
 
 .gettingstarted {
     width: 1440px;
@@ -313,6 +348,8 @@ nav {
     font-size: 23px;
     margin-bottom: 30px;
 }
+
+/* get your favourites free */
 
 .container {
     max-width: 100%;
@@ -387,10 +424,7 @@ ul.flex {
     padding-bottom: 10px;
 }
 
-/* .customize {
-    text-align: left;
-    padding-right: 180px;
-} */
+
 .customize p {
     width: 343px;
     padding-left: 35px;
@@ -404,6 +438,9 @@ ul.flex {
     padding-top: 10px;
 
 }
+
+/* endless extras */
+
 
 .circle2 img {
     height: 112px;
@@ -456,6 +493,8 @@ ul.flex {
 .endlessextras .flex.threerow {
     padding-top: 48px;
 }
+
+/* cash or card */
 
 .cashorcard {
     width: 100%;
@@ -561,6 +600,8 @@ hr {
 
 }
 
+/* star code form */
+
 .starcodecolumn {
     margin: 0 auto;
     width: 1440px;
@@ -589,7 +630,8 @@ hr {
 }
 
 .starcode a {
-    color: #158058; ;
+    color: #158058;
+    ;
 }
 
 input {
@@ -634,6 +676,8 @@ input[type="text"] {
     padding-bottom: 32px;
 }
 
+/* conditions */
+
 .conditions {
     background-color: #F9F9F9;
     padding: 48px;
@@ -674,6 +718,8 @@ input[type="text"] {
     margin-top: 48px;
 }
 
+/* bottom links */
+
 .btmlinks {
     display: flex;
     width: 1440px;
@@ -697,7 +743,9 @@ input[type="text"] {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.741);
 }
-
+.btmlinks p:hover{
+    color: black;
+}
 .list {
     width: 190px;
 }
@@ -706,16 +754,15 @@ input[type="text"] {
     margin-left: 32px;
 }
 
+/* social media icons */
+
 .iconcontainer {
     display: flex;
     width: 1440px;
     margin: 0 auto;
     justify-content: flex-start;
     align-items: center;
-
-
     height: 32px;
-
 }
 
 .iconbox {
@@ -726,8 +773,8 @@ input[type="text"] {
     margin: 10px;
     justify-content: center;
     align-items: center;
-
 }
+
 .iconcontainer div:first-child {
     margin-left: 0;
 }
@@ -745,9 +792,6 @@ input[type="text"] {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
 }
 
 .iconbox img {
@@ -755,6 +799,9 @@ input[type="text"] {
     width: 110%;
     background-color: #fff;
 }
+
+/* policy links */
+
 .policylinks {
     display: flex;
     justify-content: flex-start;
@@ -763,6 +810,7 @@ input[type="text"] {
     height: 24px;
     padding-top: 25px;
 }
+
 .policylinks a {
     display: flex;
     justify-content: center;
@@ -773,14 +821,21 @@ input[type="text"] {
     padding: 0 16px;
     font-size: 16px;
 }
-.policylinks a:first-child{
+.policylinks a:hover{
+    text-decoration: underline;
+}
+.policylinks a:first-child {
     padding-left: 0;
 }
+
 .policylinks p {
     height: 2px;
     margin: 0;
 }
-footer>p{
+
+/* footer */
+
+footer>p {
     width: 1440px;
     margin: 0 auto;
     font-size: 13.5px;
