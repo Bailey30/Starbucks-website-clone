@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+@import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    height: 100%;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+}
+
+
+
+.navflex .njbtn {
+    align-items: center;
+    display: flex;
+    height: 32px;
+    background-color: black;
+    color: white;
+    margin: 0 20px 0 15px;
+    padding: 0 0 0 0;
+    width: 90px;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.navflex .sibtn {
+    height: 32px;
+    font-size: 10px;
+    font-weight: 600;
+    border: 1px solid black;
+    margin: 0 0 0 15px;
+    padding: 0px 1px 0 0;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.navflex .fasbtn {
+
+    height: 30px;
+
+    margin: 0 20px 0 15px;
+    padding: 0 20px 0 0;
+    width: 120px;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+button {
+    display: flex;
+    text-decoration: none;
+
+    border: none;
+    height: 100%;
+
+}
+
+.navflex button {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    width: 50px;
+    height: 100%;
+    align-items: center;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+button.gift {
+    padding: 20px;
+    width: 150px;
+
+}
+
+.f1 {
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+.rightbtns {
+    padding-right: 10px;
+}
+
+
+nav {
+    height: 100px;
+    background-color: #FFFFFF;
+    margin: 0;
+
+
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
+}
+
+.navflex {
+    display: flex;
+    justify-content: space-between;
+    min-width: 92%;
+    align-items: center;
+    height: 100%;
+
+}
+
+.undernav {
+    background-color: #1E3932;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: -2px 2px 6px 1px rgba(0, 0, 0, 0.72);
+    box-shadow: -2px 2px 6px 1px rgba(0, 0, 0, 0.279);
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.undernav>div {
+
+    padding-left: 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.logo {
+    height: 50px;
+    padding-left: 35px;
+    padding-right: 20px;
+}
+
+.logo>img {
+    height: 100%;
+}
+
+
+
+.hero-image {
+    background-image: url(xl-hero-desktop_2021.png);
+    height: 50%;
+    width: 1519px;
+    height: 850px;
+    background-position: -600px -5px;
+    background-repeat: no-repeat;
+    background-size: 170%;
+    position: relative;
+
+    background-color: #D4E9E2;
+
+
+}
+
+.hero-text {
+    margin: 0;
+    position: absolute;
+    top: 320px;
+    height: 270px;
+    width: 400px;
+    left: 45px;
+}
+
+.hero-text h1 {
+    position: relative;
+    bottom: 30px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.3;
+    height: 92px;
+    width: 431px;
+    transform: scale(1, 1.1);
+    margin: 0;
+    padding-bottom: 0;
+    letter-spacing: 1px;
+}
+
+.hero-text p {
+    margin: 0;
+    position: relative;
+    bottom: 20px;
+    font-size: 17.5px;
+    letter-spacing: 1.5px;
+}
+
+.hero-text button {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 101px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #158058;
+}
+
+.hero-text p:nth-child(4) {
+    margin-top: 35px;
+
+}
+
+.hero-text a {
+    text-decoration: underline;
+    color: black;
+}
+
+.gettingstarted {
+    width: 1440px;
+    height: 320px;
+    margin: 150px auto auto auto;
+    text-align: center;
+}
+
+.gtis {
+    margin-bottom: 50px;
+}
+
+.gtis h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.gtis p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-top: 16px;
+}
+
+.row {
+    width: 396px;
+    margin: 0 24px;
+}
+
+.row h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.row p {
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    font-size: 15.5px;
+    font-weight: 400;
+}
+
+.row a {
+    color: #158058;
+}
+
+.flex.threerow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.circle {
+    height: 48px;
+    width: 48px;
+    border: 2px solid #158058;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #158058;
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    -webkit-box-shadow: 1px 7px 3px 0px rgba(0, 0, 0, 0.027);
+    box-shadow: 1px 7px 3px 0px rgba(0, 0, 0, 0.027);
+    position: relative;
+}
+
+.container h1 {
+    text-align: center;
+    padding: 48px 0;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+section.container {
+    background-color: #F1F8F6;
+    margin-top: 150px;
+}
+
+ul.flex {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.num {
+    width: 108px;
+    height: 60px;
+    margin: 0;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.drinkcontainer {
+    display: flex;
+    background-color: #D4E9E2;
+    justify-content: center;
+    margin-top: 0;
+    padding-bottom: 60px;
+
+
+}
+
+.drink {
+    height: 100%;
+    width: 375px;
+
+}
+
+.coffee {
+    position: relative;
+    right: 20px;
+    height: 100%;
+    width: 100%;
+
+    padding-right: 60px;
+    padding-top: 20px;
+
+}
+
+.customize h1 {
+    text-align: left;
+    padding-left: 35px;
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 55px;
+    padding-bottom: 10px;
+}
+
+/* .customize {
+    text-align: left;
+    padding-right: 180px;
+} */
+.customize p {
+    width: 343px;
+    padding-left: 35px;
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+.color-gold {
+    color: rgb(204, 176, 13);
+    font-size: 17px;
+    padding-top: 10px;
+
+}
+
+.circle2 img {
+    height: 112px;
+    width: 112px;
+     margin-bottom: 24px;
+}
+
+.endlessextras {
+    width: 1440px;
+    height: 320px;
+    margin: 120px auto auto auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ee p {
+    width: 720px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+.ee h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+
+.row {
+    width: 396px;
+    margin: 0 24px;
+}
+
+.circle2 h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.circle2 p {
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    font-size: 15.5px;
+    font-weight: 400;
+}
+
+.endlessextras .row a {
+    color: #158058;
+    font-weight: 600;
+}
+
+.endlessextras .flex.threerow{
+    padding-top: 48px;
+}
+
+.cashorcard {
+    width: 100%;
+    height: 620px;
+    margin: 220px auto auto auto;
+    text-align: center;
+    
+    background-color: #F2F0EB;
+}
+.cashorcard h1 {
+    font-weight: 500;
+}
+.cashorcard h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+.cashorcard p {
+    font-size: 13.5px;
+    letter-spacing: .1em;
+}
+
+.cc h1 {
+    padding-top: 48px;
+    font-size: 28px;
+    
+}
+.cc {
+    text-align: center;
+}
+.cc p {
+    padding-bottom: 88px;
+    width: 720px;
+    margin: 0 auto;
+}
+.grid {
+    width: 1440px;
+    height: 164.4px;
+    display: inline-flex;
+    margin: 0 auto;
+    text-align: left;
+    
+    align-items: flex-start;
+}
+
+.grid1 {
+    width: 240px;
+}
+div.grid2 {
+    width: 432px;
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 0 24px;
+    margin: 0 0 0 0;
+    align-self: flex-start;
+    align-content: flex-start;
+    
+    
+}
+.grid1 h1 {
+    margin: 0;
+}
+.gridimg{
+   width: 112px;
+    height: 158px;
+    padding: 0 16px 0 0;
+    margin: 0; 
+}
+.gridimg img{
+    height: 100%;
+    width: 100%;
+    
+}
+.tb1{
+    width: 303px;
+    margin: 0;
+}
+.tb1 h2 {
+    margin: 0;
+}
+.tb1 p {
+    padding: 16px 0 0;
+    margin: 0;
+}
