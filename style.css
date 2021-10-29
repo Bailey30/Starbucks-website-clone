@@ -461,7 +461,7 @@ div.customize {
     height: 5px;
     background-color: #00754a;
     width: 108px;
-    z-index: 99;
+    
     position: absolute;
     left: 450px;
     top:60px;
