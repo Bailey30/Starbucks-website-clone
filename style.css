@@ -211,7 +211,7 @@ nav {
 }
 
 .hero-image {
-    background-image: url(xl-hero-desktop_2021.png);
+    background-image: url(images/xl-hero-desktop_2021.png);
     height: 50%;
     width: 1519px;
     height: 810px;
@@ -393,31 +393,46 @@ ul.flex {
     font-weight: 500;
     margin-bottom: 6px;
 }
-
+.stack {
+    position: relative;     
+}
 .drinkcontainer {
+    position: absolute;
+    width: 100%;
+    height: 275px;
     display: flex;
     background-color: #D4E9E2;
     justify-content: center;
     margin-top: 0;
-    padding-bottom: 60px;
-
+    padding-bottom: 0px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+.visible {
+    opacity: 1;
+}
+.invisible {
+    opacity: 0;
 }
 
 .drink {
     height: 100%;
     width: 375px;
+    height: 295px;
 }
 
 .coffee {
     position: relative;
     right: 20px;
-    height: 100%;
+    
     width: 100%;
     padding-right: 60px;
     padding-top: 20px;
 
 }
-
+div.customize {
+    width: 343px;
+}
 .customize h1 {
     text-align: left;
     padding-left: 35px;
@@ -465,7 +480,7 @@ ul.flex {
 .endlessextras {
     width: 1440px;
     height: 320px;
-    margin: 120px auto auto auto;
+    margin: 380px auto auto auto;
     text-align: center;
     display: flex;
     flex-direction: column;
